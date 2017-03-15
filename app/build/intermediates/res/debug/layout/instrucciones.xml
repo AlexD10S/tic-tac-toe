@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/aboutMessage" />
+</LinearLayout><!-- From: file:/C:/Users/alex/Desktop/Universidad6/Android/UnaPrimeraApp/app/src/main/res/layout/instrucciones.xml -->

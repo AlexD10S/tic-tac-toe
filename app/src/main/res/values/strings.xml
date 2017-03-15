@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3EnRaya</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloApp">3 En Raya VS ALEX</string>
+    <string name="marcador">Marcador Total</string>
+    <string name="alex">ALEX</string>
+    <string name="contentDescription">Descripcion botón</string>
+    <string name="gameOverA">Alex Campeon</string>
+    <string name="gameOverB">Jugador B campeonr</string>
+    <string name="gameOver">Empate xavales</string>
+    <string name="gameOverAsk">¿Otra Partida?</string>
+    <string name="title_activity_initial">Initial</string>
+    <string name="activity_menu_principal">Menu Opciones</string>
+
+
+    <string name="buttonplay">Play!</string>
+    <string name="buttoninfo">How to play</string>
+    <string name="buttonrecords">Records</string>
+    <string name="aboutMessage">Como el tres en raya normal</string>
+    <string name="title_activity_get_name">getName</string>
+    <string name="title_activity_initial2">Initial2</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+
+
+
+    
+</resources>

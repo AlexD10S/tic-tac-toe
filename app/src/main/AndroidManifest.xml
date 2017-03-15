@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.uam.eps.unaprimeraapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Initial"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/activity_menu_principal" >
+            <intent-filter>
+                <action android:name="es.uam.eps.unaprimeraapp.MENUACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActividadPrincipal" >
+            <intent-filter>
+                <action android:name="es.uam.eps.unaprimeraapp.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Instrucciones" >
+
+            <!-- android:theme="@android:style/Theme.Holo.Dialog" -->
+            <intent-filter>
+                <action android:name="es.uam.eps.unaprimeraapp.INSTRUCCIONES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".getName"
+            android:label="@string/title_activity_get_name" >
+            <intent-filter>
+                <action android:name="es.uam.eps.unaprimeraapp.NAME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Initial2"
+            android:label="@string/title_activity_initial2" >
+            <intent-filter>
+                <action android:name="es.uam.eps.unaprimeraapp.INITIAL2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

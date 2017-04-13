@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="tituloApp">Tic Tac Toe</string>
+    <string name="marcador">Score</string>
+    <string name="alex">ALEX</string>
+    <string name="contentDescription">button description</string>
+    <string name="gameOverA">Alex Win</string>
+    <string name="gameOverB">Player B Win</string>
+    <string name="gameOver">Drawn</string>
+    <string name="gameOverAsk">Another?</string>
+    <string name="title_activity_initial">Initial</string>
+    <string name="activity_menu_principal">Menu</string>
+
+
+    <string name="buttonplay">Play!</string>
+    <string name="buttoninfo">How to play</string>
+    <string name="buttonrecords">Records</string>
+    <string name="aboutMessage">The game is like the traditional tic tac toe</string>
+    <string name="title_activity_get_name">getName</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>

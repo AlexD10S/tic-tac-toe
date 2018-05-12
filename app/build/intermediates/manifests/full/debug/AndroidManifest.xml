@@ -1,66 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="es.uam.eps.unaprimeraapp"
+    package="com.alexd10s.tictactoe"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="es.uam.eps.unaprimeraapp.Initial"
-            android:label="@string/app_name" >
+        <activity android:name="com.alexd10s.tictactoe.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="es.uam.eps.unaprimeraapp.MenuPrincipal"
-            android:label="@string/activity_menu_principal" >
+        <activity android:name="com.alexd10s.tictactoe.MainMenu" >
             <intent-filter>
-                <action android:name="es.uam.eps.unaprimeraapp.MENUACTIVITY" />
+                <action android:name="com.alexd10s.tictactoe.MainMenu" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="es.uam.eps.unaprimeraapp.ActividadPrincipal" >
+        <activity android:name="com.alexd10s.tictactoe.Game" >
             <intent-filter>
-                <action android:name="es.uam.eps.unaprimeraapp.MAINACTIVITY" />
+                <action android:name="com.alexd10s.tictactoe.GAME" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="es.uam.eps.unaprimeraapp.Instrucciones" >
-
-            <!-- android:theme="@android:style/Theme.Holo.Dialog" -->
+        <activity android:name="com.alexd10s.tictactoe.Instructions" >
             <intent-filter>
-                <action android:name="es.uam.eps.unaprimeraapp.INSTRUCCIONES" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="es.uam.eps.unaprimeraapp.getName"
-            android:label="@string/title_activity_get_name" >
-            <intent-filter>
-                <action android:name="es.uam.eps.unaprimeraapp.NAME" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="es.uam.eps.unaprimeraapp.Initial2"
-            android:label="@string/title_activity_initial2" >
-            <intent-filter>
-                <action android:name="es.uam.eps.unaprimeraapp.INITIAL2" />
+                <action android:name="com.alexd10s.tictactoe.INSTRUCTIONS" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

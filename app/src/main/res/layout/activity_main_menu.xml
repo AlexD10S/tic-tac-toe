@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button android:id="@+id/ButtonPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50sp"
+        android:text="@string/buttonplay"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:layout_weight="1"
+        android:onClick="onButtonPlayClick"/>
+
+
+    <Button android:id="@+id/ButtonRecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50dp"
+        android:text="@string/buttonmachine"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:onClick="onButtonMachineClick"/>
+
+    <Button android:id="@+id/ButtonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50dp"
+        android:text="@string/buttoninfo"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:layout_weight="1"
+        android:onClick="onButtonInstClick"/>
+
+</LinearLayout>

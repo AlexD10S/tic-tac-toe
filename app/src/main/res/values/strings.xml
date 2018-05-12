@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">3EnRaya</string>
+    <string name="app_name">Tic Tac Toe</string>
     <string name="action_settings">Settings</string>
-    <string name="tituloApp">3 En Raya VS ALEX</string>
-    <string name="marcador">Marcador Total</string>
+    <string name="tituloApp">Tic Tac Toe</string>
+    <string name="marcador">Score</string>
     <string name="alex">ALEX</string>
-    <string name="contentDescription">Descripcion botón</string>
-    <string name="gameOverA">Alex Campeon</string>
-    <string name="gameOverB">Jugador B campeonr</string>
-    <string name="gameOver">Empate xavales</string>
-    <string name="gameOverAsk">¿Otra Partida?</string>
+    <string name="contentDescription">button description</string>
+    <string name="gameOverA">Alex Win</string>
+    <string name="gameOverB">Player B Win</string>
+    <string name="gameOver">Drawn</string>
+    <string name="gameOverAsk">Another?</string>
     <string name="title_activity_initial">Initial</string>
-    <string name="activity_menu_principal">Menu Opciones</string>
-
-
-    <string name="buttonplay">Play!</string>
+    <string name="activity_menu_principal">Menu</string>
+    <string name="buttonplay">Play vs a Friend!</string>
     <string name="buttoninfo">How to play</string>
-    <string name="buttonrecords">Records</string>
-    <string name="aboutMessage">Como el tres en raya normal</string>
-    <string name="title_activity_get_name">getName</string>
-    <string name="title_activity_initial2">Initial2</string>
+    <string name="buttonmachine">Play vs Machine!</string>
+    <string name="aboutMessage">The object of Tic Tac Toe is to get three in a row before the opponent.</string>
+    <string name="aboutMessage2">You play on a three by three game board. The first player is the color red and the second is the color blue.</string>
 
-    <string name="hello_world">Hello world!</string>
-
-
-
-
-
-    
 </resources>

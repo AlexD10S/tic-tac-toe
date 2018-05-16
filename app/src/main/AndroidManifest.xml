@@ -34,6 +34,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".GameIA">
+            <intent-filter>
+                <action android:name="com.alexd10s.tictactoe.GAMEIS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Instructions">
             <intent-filter>
                 <action android:name="com.alexd10s.tictactoe.INSTRUCTIONS" />

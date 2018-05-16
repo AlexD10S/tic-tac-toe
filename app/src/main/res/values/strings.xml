@@ -6,8 +6,10 @@
     <string name="marcador">Score</string>
     <string name="alex">ALEX</string>
     <string name="contentDescription">button description</string>
-    <string name="gameOverA">Alex Win</string>
+    <string name="gameOverA">Player A Win</string>
     <string name="gameOverB">Player B Win</string>
+    <string name="gameOverHuman">Congrats, you beat the Alex Machine</string>
+    <string name="gameOverMachine">The Alex Machine always Win</string>
     <string name="gameOver">Drawn</string>
     <string name="gameOverAsk">Another?</string>
     <string name="title_activity_initial">Initial</string>

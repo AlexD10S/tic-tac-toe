@@ -9,7 +9,10 @@ import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.Toast;
-import android.widget.TextView;
+
+import com.alexd10s.tictactoe.Dialogs.AlertDialogAWon;
+import com.alexd10s.tictactoe.Dialogs.AlertDialogBWon;
+import com.alexd10s.tictactoe.Dialogs.AlertDialogDrawn;
 
 public class Game extends AppCompatActivity {
 

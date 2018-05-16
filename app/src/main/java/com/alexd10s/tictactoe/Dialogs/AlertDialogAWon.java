@@ -1,4 +1,4 @@
-package com.alexd10s.tictactoe;
+package com.alexd10s.tictactoe.Dialogs;
 
 import android.app.AlertDialog;
 import android.app.DialogFragment;
@@ -6,6 +6,10 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.content.DialogInterface;
+
+import com.alexd10s.tictactoe.Game;
+import com.alexd10s.tictactoe.R;
+
 /**
  * Message when finished the game
  */

@@ -35,7 +35,8 @@ public class MainMenu extends AppCompatActivity {
      * When user push the button play vs machine
      */
     public void onButtonMachineClick(View v) {
-        Toast.makeText(getApplicationContext(), "Not implemented yet", Toast.LENGTH_LONG).show();
+        Intent i = new Intent(getBaseContext(), GameIA.class);
+        startActivity(i);
     }
     /**
      * When user push the button How to play

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/a714249a47c475c3674d243c6beb81a4/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/alex/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1ce589634bdc15836fcc8260615f73c/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/a942e6a133319170a7943c054ed2312a/AndroidManifest.xml:17:1-24:12
@@ -14,9 +14,9 @@ MERGED from [com.android.support:support-media-compat:25.1.1] /Users/alex/.gradl
 MERGED from [com.android.support:support-core-utils:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/33c89059b03345e785b60391d4103f09/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/4243f1ffcc2a811470293b387f41e343/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/294af6bec4da2ed715dfc9e970d3e174/AndroidManifest.xml:17:1-27:12
-INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml
@@ -32,7 +32,7 @@ INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidMan
 		INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:7:5-44:19
+ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:7:5-51:19
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/a714249a47c475c3674d243c6beb81a4/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/a714249a47c475c3674d243c6beb81a4/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/alex/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c1ce589634bdc15836fcc8260615f73c/AndroidManifest.xml:9:5-20
@@ -103,16 +103,26 @@ action#com.alexd10s.tictactoe.GAME
 ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:32:17-70
 	android:name
 		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:32:25-67
-activity#com.alexd10s.tictactoe.Instructions
+activity#com.alexd10s.tictactoe.GameIA
 ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:37:19-47
-intent-filter#android.intent.category.DEFAULT+com.alexd10s.tictactoe.INSTRUCTIONS
+		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:37:19-41
+intent-filter#android.intent.category.DEFAULT+com.alexd10s.tictactoe.GAMEIS
 ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:38:13-42:29
-action#com.alexd10s.tictactoe.INSTRUCTIONS
-ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:39:17-78
+action#com.alexd10s.tictactoe.GAMEIS
+ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:39:17-72
 	android:name
-		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:39:25-75
+		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:39:25-69
+activity#com.alexd10s.tictactoe.Instructions
+ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:44:9-50:20
+	android:name
+		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:44:19-47
+intent-filter#android.intent.category.DEFAULT+com.alexd10s.tictactoe.INSTRUCTIONS
+ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:45:13-49:29
+action#com.alexd10s.tictactoe.INSTRUCTIONS
+ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:46:17-78
+	android:name
+		ADDED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml:46:25-75
 uses-sdk
 INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/alex/Documents/Projects/tic-tac-toe/app/src/main/AndroidManifest.xml

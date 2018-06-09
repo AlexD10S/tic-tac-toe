@@ -142,8 +142,24 @@ public class GameIA extends AppCompatActivity {
         if( !ifCanWin() ) {
             //If can lose, block the rival
             if( !ifCanLose()){
+                //TODO: Try to do a Fork: Create an opportunity where you can win in two ways.
+                //TODO: Try to block user Fork.
+                //Play the center if can
                 if(ticTacToe.getValuePosition(1,1) == 0){
                     moveThere(1,1);
+                }
+                //If the opponent is in the corner, play the opposite corner.
+                else if(ticTacToe.getValuePosition(0,0) == 2 && ticTacToe.getValuePosition(2,2) == 0){
+                    moveThere(2,2);
+                }
+                else if(ticTacToe.getValuePosition(2,2) == 2 && ticTacToe.getValuePosition(0,0) == 0){
+                    moveThere(0,0);
+                }
+                else if(ticTacToe.getValuePosition(0,2) == 2 && ticTacToe.getValuePosition(2,0) == 0){
+                    moveThere(2,0);
+                }
+                else if(ticTacToe.getValuePosition(2,0) == 2 && ticTacToe.getValuePosition(0,2) == 0){
+                    moveThere(0,2);
                 }
                 else {
                     randomMove();
@@ -170,6 +186,7 @@ public class GameIA extends AppCompatActivity {
 
         return done;
     }
+
     private boolean ifCanLose(){
         boolean done = false;
         boolean noMove = true;
